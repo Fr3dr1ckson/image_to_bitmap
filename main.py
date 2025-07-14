@@ -4,7 +4,7 @@ import numpy as np
 
 # === CONFIGURATION ===
 source_dir = "source"
-convert_dir = "convert"
+convert_dir = "converted"
 os.makedirs(convert_dir, exist_ok=True)
 
 files = [f for f in os.listdir(source_dir) if f.lower().endswith(('.png', '.jpg', '.jpeg', '.bmp', '.gif'))]
